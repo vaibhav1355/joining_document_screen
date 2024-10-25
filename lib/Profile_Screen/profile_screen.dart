@@ -101,10 +101,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 child: Container(
                   width: MediaQuery.sizeOf(context).width,
                   decoration: BoxDecoration(
-                    gradient: LinearGradient(colors: [
+                    gradient: LinearGradient(colors:
+                    [
                       Color(0xfffefefe),
                       Color(0xffe2e2e2),
-                    ]),
+                    ],
+                      begin:Alignment.topCenter,
+                      end: Alignment.topRight,
+                    ),
                     // color: Color(0xfff2f2f2),
                     borderRadius: BorderRadius.circular(18),
                   ),
